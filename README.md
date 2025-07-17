@@ -31,6 +31,7 @@ Open the ViSi-Genie project using Workshop4 and download to your display, connec
 
 This library should be discoverable from the Arduino IDE Library Manager too.
 
+
 ## Example Sketch
 
 Inside the library are 4 example sketches, to assist with getting started using this library. Inside is also a ViSi-Genie Workshop4 project, which can be used on a range of 4D Systems displays (designed on a uLCD-32PTU however can be changed via Workshop4 menu). It illustrates how to use some of the commands in the library include Read Object, Write Object, Reported Messages, Write Contrast and Write String.
@@ -722,3 +723,8 @@ For more information on each of the actual Widgets in Workshop4, please refer to
 Please sign up for our Forum and ask a question there, or submit a Tech Support Ticket from our website.
 http://forum.4dsystems.com.au or http://www.4dsystems.com.au/support
 Feel free to add a Github issue if you find a problem, we will do our best to help solve the problem.
+
+## STM32 HAL Port (C)
+`stm32/genieSTM32.c` and `genieSTM32.h` provide a C implementation of the full
+Genie API for STM32 HAL projects. Include these files and call
+`genieSTM32_Begin()` with your UART handle.
