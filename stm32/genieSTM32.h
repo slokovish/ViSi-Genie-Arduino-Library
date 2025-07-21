@@ -41,6 +41,8 @@ int HAL_UART_Receive(UART_HandleTypeDef *, uint8_t *, uint16_t, uint32_t);
 /* Object constants (subset for brevity) */
 #define GENIE_OBJ_FORM          10
 #define GENIE_OBJ_GAUGE         11
+#define GENIE_OBJ_IMAGE         12
+#define GENIE_OBJ_KEYBOARD      13
 #define GENIE_OBJ_LED           14
 #define GENIE_OBJ_LED_DIGITS    15
 #define GENIE_OBJ_STRINGS       17
